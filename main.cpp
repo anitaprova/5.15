@@ -21,8 +21,9 @@ void sort2(int& a, int& b){
 }
 
 void sort3(int& a, int& b, int& c){
-	sort2(b, a);
+	sort2(a, b);
 	sort2(a, c);
+	sort2(b, c);
 }
 
 int main() {
